@@ -1,3 +1,4 @@
+// Ran out of time but essentially I was trying to look up JS frameworks for modals and implement them.
 $(document).ready(function(){
 	$("#search").click(function(){
 		alert("Popup modal for search")
