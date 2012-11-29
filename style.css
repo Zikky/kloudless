@@ -22,26 +22,109 @@ body{
 	#search{
 		float: right;
 	}
+	#block1{
+
+	}
+	#block2{
+
+	}
+	#block3{
+
+	}
+	#block4{
+
+	}
+	#block5{
+
+	}
+	#block6{
+
+	}
+	#block7{
+
+	}
+	#block8{
+
+	}
+	#block9{
+		
+	}
+	.block{
+		margin: 40px;
+		text-align:center;
+		height: 400px;
+		width: 400px;
+	}
 }
 
 /*iphone*/
 @media only screen and (max-device-width: 480px) {
-    #header {
-            -ms-grid-row: 1;
-            -ms-grid-column: 1;
-    }
-    #block1 {
-            -ms-grid-row: 2; /*place into row 2 / column 1*/
-            -ms-grid-column: 1;
-    }
-    #block2 {
-            -ms-grid-row: 3;
-            -ms-grid-column: 1;
-    }
-    #block3 {
-            -ms-grid-row: 4;
-            -ms-grid-column: 1;
-    }
+    
 }
 
 /* assuming all else is a computer screen... */
+#header{
+		margin-top: 10px;
+		font-size: 2em;
+		height: 40px;
+}
+
+#title{
+	float: left;
+}
+
+#settings{
+	float: right;
+}
+
+#search{
+	float: right;
+}
+
+#center{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#block1{
+	
+}
+#block2{
+	top:500px;
+}
+#block3{
+	top: 950px;
+}
+#block4{
+	left: 500px;
+}
+#block5{
+	top:500px;
+	left: 500px;
+}
+#block6{
+	top: 950px;	
+	left: 500px;
+}
+#block7{
+	left: 990px;
+}
+#block8{
+	top:500px;
+	left: 990px;
+}
+#block9{
+	top:950px;
+	left: 990px;
+}
+.block{
+	
+	position: absolute;
+	margin: 20px;
+	text-align:center;
+	height: 400px;
+	width: 450px;
+
+}
