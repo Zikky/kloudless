@@ -6,10 +6,6 @@ body{
 }
 /* ipad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
-	#grid{
-		display: -ms-grid;
-	}
-
 	#header{
 		font-size: 2em;
 		height: 40px;
@@ -30,12 +26,6 @@ body{
 
 /*iphone*/
 @media only screen and (max-device-width: 480px) {
-    #grid {
-        display: -ms-grid;
-        margin: 3px;
-        -ms-grid-columns: 100%; /*one column taking full width */
-        -ms-grid-rows: 70px auto auto auto; /*4 rows */
-    }
     #header {
             -ms-grid-row: 1;
             -ms-grid-column: 1;
