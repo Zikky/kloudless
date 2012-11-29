@@ -1,0 +1,57 @@
+body{
+	font-family: 'Georgia', sans-serif;
+	background-image: url('images/bubble_background.jpg');
+	background-repeat: repeat-x;
+	height: 100%;
+}
+/* ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	#grid{
+		display: -ms-grid;
+	}
+
+	#header{
+		font-size: 2em;
+		height: 40px;
+	}
+
+	#title{
+		float: left;
+	}
+
+	#settings{
+		float: right;
+	}
+
+	#search{
+		float: right;
+	}
+}
+
+/*iphone*/
+@media only screen and (max-device-width: 480px) {
+    #grid {
+        display: -ms-grid;
+        margin: 3px;
+        -ms-grid-columns: 100%; /*one column taking full width */
+        -ms-grid-rows: 70px auto auto auto; /*4 rows */
+    }
+    #header {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1;
+    }
+    #block1 {
+            -ms-grid-row: 2; /*place into row 2 / column 1*/
+            -ms-grid-column: 1;
+    }
+    #block2 {
+            -ms-grid-row: 3;
+            -ms-grid-column: 1;
+    }
+    #block3 {
+            -ms-grid-row: 4;
+            -ms-grid-column: 1;
+    }
+}
+
+/* assuming all else is a computer screen... */
