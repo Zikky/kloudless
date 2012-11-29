@@ -2,10 +2,13 @@ Assignment for Front-End Test:
 -----
 
 *Use CSS3 and Javascript/JS frameworks.
+
 *Add your own design/style to it if you want
 
 Problem: We need to have new a grid type layout for a new view for our web app. Each example image you use will need to be automatically centered in the div and designed like Dribbble example. Also, the grid system needs to be viewed in all resolutions (hint: Responsive). Add a modal that can popup that is specific to each image, the data in the modal can be anything, we just need this coded for now.
 
 *Images shouldn't be pre-cropped
+
 *Needs to be viewable on the iPhone, iPad, and Browser
+
 *Keep the interactions like in the example provided
