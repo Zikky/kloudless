@@ -4,7 +4,10 @@ body{
 	background-repeat: repeat-x;
 	height: 100%;
 }
-/* ipad */
+/* ipad:
+totally guessing at dimensions, don't have capabilities or time to test atm.
+essentially trying to go with a 2 column approach
+*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
 	#header{
 		font-size: 2em;
@@ -22,47 +25,103 @@ body{
 	#search{
 		float: right;
 	}
-	#block1{
-
+	#block1{	
 	}
 	#block2{
-
+		left:500px;
 	}
 	#block3{
-
+		top: 500px;
 	}
 	#block4{
-
+		top: 500px;
+		left: 5000px;
 	}
 	#block5{
-
+		top: 950px;
 	}
 	#block6{
-
+		top: 950px;	
+		left: 500px;
 	}
 	#block7{
-
+		top:1400px;
 	}
 	#block8{
-
+		top:1400px
+		left: 500px;
 	}
 	#block9{
-		
+		top:1850px;
 	}
 	.block{
-		margin: 40px;
+		position: absolute;
+		margin: 20px;
 		text-align:center;
 		height: 400px;
-		width: 400px;
+		width: 450px;
 	}
 }
 
-/*iphone*/
+/*iphone
+totally guessing at dimensions, don't have capabilities or time to test atm.
+going with a single column approach
+*/
 @media only screen and (max-device-width: 480px) {
-    
+	#header{
+		font-size: 1em;
+		height: 40px;
+	}
+	#title{
+		float: left;
+	}
+
+	#settings{
+		float: right;
+	}
+
+	#search{
+		float: right;
+	}
+	#block1{	
+	}
+	#block2{
+		top: 500px;
+	}
+	#block3{
+		top: 950px;
+	}
+	#block4{
+		top:1400px;
+	}
+	#block5{
+		top:1850px;
+	}
+	#block6{
+		top: 2300px;
+	}
+	#block7{
+		top:2750px;
+	}
+	#block8{
+		top:3200px
+	}
+	#block9{
+		top:3650px;
+	}
+	.block{
+		position: absolute;
+		margin: 20px;
+		text-align:center;
+		height: 400px;
+		width: 450px;
+	}
 }
 
-/* assuming all else is a computer screen... */
+/* assuming all else is a computer screen... 
+known issue: not entirely reactive. header reacts but the blocks don't 
+TODO: fix known issue
+*/
 #header{
 		margin-top: 10px;
 		font-size: 2em;
@@ -79,13 +138,6 @@ body{
 
 #search{
 	float: right;
-}
-
-#center{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
 }
 
 #block1{
